@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>HabraCorrector</name>
+	<description>Это расширение для Opera поможет вам быстро сообщать авторам топиков на habrahabr.ru об ошибках. Чтобы сообщить об ошибке, выделите нужное слово или предложение и нажмите Ctrl+Enter.</description>
+	<author href="mailto:wkyborgw@gmail.com">wkyborgw@gmail.com</author>
+        <icon src="icon/habracorrector.png"/>
+</widget>
