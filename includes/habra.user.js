@@ -34,8 +34,9 @@
                                 minWidth: 450,
                                 buttons: {
                                     "Отправить": function() {
+                                        
                                         var title = window.$('#habracorrector_title').attr('value');
-                                        var text = window.$('#habracorrector_text').html();
+                                        var text = window.$('#habracorrector_text').val();
                                         var recipient = window.$('#habracorrector_recipient').attr('value');
                                         window.$.post("http://habrahabr.ru/ajax/messages/add/", {
                                             'message[recipients]': recipient,
@@ -74,5 +75,5 @@
     newScript.href = 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/base/jquery-ui.css';
     headID.appendChild(newScript);
 
-})();;
+
 })();
