@@ -23,8 +23,8 @@
                     if (e.ctrlKey && e.keyCode == 13) {
                         var authors = window.$('.author');
                         if (authors.length == 1) {
-                            var author_name = window.$('.author a').text();
-                            var author_url = window.$('.author a').attr('href');
+                            var author_name = window.$('.author a:first-child').text();
+                            var author_url = window.$('.author a:first-child').attr('href');
 
                             window.$('#dialog').remove();
 
